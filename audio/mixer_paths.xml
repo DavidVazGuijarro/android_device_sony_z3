@@ -1529,11 +1529,9 @@
     </path>
 
     <path name="headset-mic">
-        <!--80 % of 124 (rounded) register: 0x241-->
-        <ctl name="DEC5 Volume" value="99" />
-        <!--42 % of 19 (rounded) register: 0x155-->
-        <ctl name="ADC2 Volume" value="8" />
         <path name="adc2" />
+        <ctl name="ADC2 Volume" value="8" />
+        <ctl name="DEC8 Volume" value="99" />
     </path>
 
     <path name="headset-mic-asr">
